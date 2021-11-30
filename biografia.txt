@@ -1,0 +1,3 @@
+Hola mi nombre es Arturo Miranda
+
+Soy estudiante de la Tecsup llevando el curso de desarrollo full stack
