@@ -1,3 +1,11 @@
 Hola mi nombre es Arturo Miranda
 
 Soy estudiante de la Tecsup llevando el curso de desarrollo full stack
+
+
+este es el segundo escrito
+
+
+por navidad me gusta comer pavo
+
+ahora estoy en la nueva rama
