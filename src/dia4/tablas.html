@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia 4 - Tablas</title>
+</head>
+<body>
+    <!-- Etiqueta para tabla -->
+    <!-- por defauld una tabla no tiene bordes -->
+    <table>
+        <!-- una tabla esta compuesta por una cabecera y cuerpo -->
+        <!-- Existe el table header que es la cabecera de mi tablas -->
+        <thead>
+        <!-- thead es el contenedor de mi cabecera de tabla -->
+        <!-- Para poder definir  un elemento debe estar dentro de una fila -->
+            <tr>
+                <!-- una fila esta compuesta por uno o varios elementos -->
+                <!-- para definir un elemento debe estar dentro de una celda -->
+                <!-- cuando es una cabecera la etiqueta del elemento se llama th -->
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Celular</th>
+                <th>Correo</th>
+                <th>Fecha de nacimiento</th>
+            </tr>
+        </thead>
+        <!-- El cuerpo de la tabla va abajo del thead -->
+        <!-- El cuerpo del la tabla es el contenedor de los datos -->
+            <tbody>
+                <!-- Al igual que theads  -->
+                <tr>
+                    <td>lucas</td>
+                    <td>zapata</td>
+                    <td>9944345</td>
+                    <td>asdfa@asdf</td>
+                    <td></td>
+                </tr>
+            </tbody>
+    </table>
+    <p>
+
+    </p>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>Correo</th>
+                <!-- Este th vale 2 columnas o sea me sirve para 2 datos -->
+                <th colspan="3">foto y numero</th>
+            </tr>
+        </thead>
+            <tbody>
+                <tr>
+                    <td>juan </td>
+                    <td>perez</td>
+                    <td>22</td>
+                    <td>juanpez@fas</td>
+                </tr>
+            </tbody>
+
+
+    </table>
+
+    <h1>rowspan</h1>
+    <table>
+        <tbody>
+            <tr>
+                <td rowspan="3">HTML</td>
+                <td>juan</td>
+                <td>perez</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
