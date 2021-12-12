@@ -1,0 +1,64 @@
+/* GLOBALES */
+h2 {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #87119A;
+    border-left: 8px solid #87119A;
+    height: 52px;
+    padding-left: 23px;
+    margin-bottom: 18px;
+    
+}
+h3 {
+   font-size: 14px;
+}
+
+p {
+    display: flex;
+    justify-content: start;
+    font-family: arial;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #9431a4;
+    font-size: 20px;
+    padding-left: 20px;   
+}
+
+/* HEADER */
+header{
+    margin: 25px;
+    display: flex; 
+    justify-content: center;
+    justify-content: space-between; 
+}
+
+header nav{
+    display: flex;
+    
+}
+header nav ul {
+
+    display: flex;
+    list-style: none;
+    
+}
+
+main section .contacto{
+ display: flexbox;
+
+}
+
+/* main */
+
+main {
+  
+}
+
+    
+
+/* FOOTER */
